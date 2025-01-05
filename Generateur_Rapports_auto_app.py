@@ -6,7 +6,7 @@ import seaborn as sns
 st.title('Générateur de Rapports Automatisés')
 
 # URL du fichier CSV d'exemple
-csv_url = "https://people.sc.fsu.edu/~jburkardt/data/csv/hw_200.csv"
+csv_url = "https://github.com/buhend/Deploiement-application/blob/main/Housing.csv"
 
 # Lecture du fichier CSV directement depuis l'URL
 df = pd.read_csv(csv_url)
